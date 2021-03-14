@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+/*----general setup------*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,5 +9,142 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-size: 15px;
+    font-family: Poppins, sans-serif;
+}
+
+/*-----header setup-------*/
+
+.header {
+    font-weight: 300;
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+}
+
+.paragraph {
+    font-size: 15px;
+    margin: 20px 0;
+    width: 500px;
+}
+
+/*------boxes setup------*/
+
+.supervisor-box {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    text-align: left;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    border-radius: 5px;
+    box-shadow: 2px 10px 10px 1px rgb(214, 213, 213);
+    background-color: white;
+}
+
+.supervisor-box h2 {
+    font-size: 15px;
+}
+
+.supervisor-box p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.supervisor-box img {
+    margin: 40px 0px 0px 210px;
+    width: 50px;
+    height: 50px;
+}
+
+.team-builder-box {
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    text-align: left;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    border-radius: 5px;
+    box-shadow: 2px 10px 10px 1px rgb(214, 213, 213);
+    background-color: white;
+}
+
+.team-builder-box h2 {
+    font-size: 15px;
+}
+
+.team-builder-box p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.team-builder-box img {
+    margin: 40px 0px 0px 210px;
+    width: 50px;
+    height: 50px;
+}
+
+.karma-box {
+    position: absolute;
+    top: 66%;
+    left: 39%;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    text-align: left;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    border-radius: 5px;
+    box-shadow: 2px 10px 10px 1px rgb(214, 213, 213);
+    background-color: white;
+}
+
+.karma-box h2 {
+    font-size: 15px;
+}
+
+.karma-box p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.karma-box img {
+    margin: 40px 0px 0px 210px;
+    width: 50px;
+    height: 50px;
+}
+
+.calculator-box {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    text-align: left;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    border-radius: 5px;
+    box-shadow: 2px 10px 10px 1px rgb(214, 213, 213);
+    background-color: white;
+}
+
+.calculator-box h2 {
+    font-size: 15px;
+}
+
+.calculator-box p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.calculator-box img {
+    margin: 40px 0px 0px 210px;
+    width: 50px;
+    height: 50px;
 }
